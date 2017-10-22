@@ -385,6 +385,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     LauncherOverlayTarget \
+    SettingsProviderCommon \
     SettingsProviderRedmi125G \
     SettingsProviderPocoM6Pro5G \
     SettingsProviderRedmi12R \
