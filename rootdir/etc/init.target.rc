@@ -101,6 +101,10 @@ on early-boot
     mkdir /data/vendor/multimedia 0775 system system
 
 on boot
+    # Workarround for cache
+     rm /data/resource-cache
+     rm /data/system/package_cache
+
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon
     # We want all cores for camera
