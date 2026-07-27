@@ -130,6 +130,12 @@
          be deleted to make room for new configs.-->
     <integer name="config_wifiMaxNumWifiConfigurations" translatable="false">1000</integer>
 
+    <!-- Boolean indicating whether to disable firmware roaming when the device goes into idle mode.
+         true: firmware roaming will be disabled when the device goes into idle mode, and then
+         re-activated when the device exits idle mode.
+         false: firmware roaming will not be affected. -->
+    <bool translatable="false" name="config_wifiDisableFirmwareRoamingInIdleMode">true</bool>    
+
     <!-- Lists each alternate character set per locale language for SSID translation to UTF-8. This
          will translate all SSIDs encoded with the specified character set from the native layer
          into UTF-8 SSIDs. The translated SSIDs are then converted back to the original character
