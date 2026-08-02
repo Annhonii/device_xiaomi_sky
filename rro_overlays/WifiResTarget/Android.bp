@@ -7,3 +7,35 @@ runtime_resource_overlay {
     name: "WifiResTarget",
     vendor: true,
 }
+
+// Redmi 12 5G
+runtime_resource_overlay {
+    name: "WifiOverlayRedmi125G",
+    manifest: "Redmi125G/AndroidManifest.xml",
+    resource_dirs: ["Redmi125G/res"],
+    device_specific: true,
+}
+
+// POCO M6 Pro 5G
+runtime_resource_overlay {
+    name: "WifiOverlayPocoM6Pro",
+    manifest: "PocoM6Pro/AndroidManifest.xml",
+    resource_dirs: ["PocoM6Pro/res"],
+    device_specific: true,
+}
+
+// Redmi 12R
+runtime_resource_overlay {
+    name: "WifiOverlayRedmi12R",
+    manifest: "Redmi12R/AndroidManifest.xml",
+    resource_dirs: ["Redmi12R/res"],
+    device_specific: true,
+}
+
+// Redmi Note 12R
+runtime_resource_overlay {
+    name: "WifiOverlayRedmiNote12R",
+    manifest: "RedmiNote12R/AndroidManifest.xml",
+    resource_dirs: ["RedmiNote12R/res"],
+    device_specific: true,
+}

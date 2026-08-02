@@ -389,7 +389,11 @@ PRODUCT_PACKAGES += \
     SystemUIResCommon \
     TelephonyResCommon \
     WifiResCommon \
-    WifiResTarget
+    WifiResTarget \
+    WifiOverlayRedmi125G \
+    WifiOverlayPocoM6Pro \
+    WifiOverlayRedmi12R \
+    WifiOverlayRedmiNote12R
 
 # Secure element
 PRODUCT_COPY_FILES += $(foreach sku,sku_hceese sku_hcesim1ese sku_hcesimese, \
