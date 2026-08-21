@@ -41,3 +41,32 @@
 
 # Vibrator
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.xiaomi u:object_r:hal_vibrator_default_exec:s0
+
+# MiuiCamera
+/vendor/lib(64)?/libmialgoengine\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libmialgoengine2\.so                     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libcom.xiaomi.pluginutils\.so            u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libcom.xiaomi.metadatautils\.so          u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libmpbase\.so                            u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_high_dynamic_range\.so        u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_low_light_hdr\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_beautyshot\.so                u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_dualcam_refocus_image\.so     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_portrait_lighting\.so         u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_portrait_lighting_c\.so       u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/librelight_only\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libneuron_runtime\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarcsoft_supernight\.so                u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libc\+\+_shared\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libmialgo_utils\.so                      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libmialgo_aio_seg\.so                    u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libMNN\.so                               u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libmialgo_ai_vision\.so                  u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libmiphone_capture_bokeh\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.hdr\.so                u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.memcpy\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.skinbeautifier\.so     u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.swflip\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.mibokeh\.so            u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.superlowlight\.so      u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.capbokeh\.so           u:object_r:same_process_hal_file:s0

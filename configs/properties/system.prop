@@ -1,5 +1,6 @@
 # Camera
 log.tag.CHIUSECASE=ERROR
+ro.product.mod_device=sky_global
 
 # CNE
 persist.vendor.cne.feature=1
