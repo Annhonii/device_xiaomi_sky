@@ -1,6 +1,7 @@
 # Camera
 vendor.camera.config. u:object_r:vendor_camera_config_prop:s0
 vendor.camera.sensor. u:object_r:vendor_camera_sensor_prop:s0
+vendor.camera.clientname       u:object_r:vendor_camera_prop:s0
 
 # Device ID
 odm.ril.radio.status.sim1 u:object_r:vendor_deviceid_prop:s0
