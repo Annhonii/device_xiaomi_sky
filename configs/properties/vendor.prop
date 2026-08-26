@@ -225,7 +225,9 @@ persist.vendor.radio.enableadvancedscan=true
 persist.vendor.rcs.singlereg.feature=1
 
 # Sensors
+log.tag.SensorVirtualProximity=S
 persist.vendor.sensors.support_direct_channel=false
+persist.vendor.sensors.debug.hal=0
 
 # SOC
 ro.soc.manufacturer=QTI
