@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.android.providers.settings.overlay.settingsproviderredmi125g">
+    <overlay android:targetPackage="com.android.providers.settings"
+             android:targetName="SettingsProviderCustomization"
+             android:isStatic="true"
+             android:priority="999"
+             android:requiredSystemPropertyName="ro.product.odm.marketname"
+             android:requiredSystemPropertyValue="Redmi 12 5G" />
+</manifest>

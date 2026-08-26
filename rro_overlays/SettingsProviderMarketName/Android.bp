@@ -1,0 +1,37 @@
+// Auto-generated Dynamic Market Name Overlays
+
+runtime_resource_overlay {
+    name: "SettingsProviderRedmi125G",
+    manifest: "SettingsProviderRedmi125G/AndroidManifest.xml",
+    resource_dirs: ["SettingsProviderRedmi125G/res"],
+    certificate: "platform",
+    product_specific: true,
+    sdk_version: "current",
+}
+
+runtime_resource_overlay {
+    name: "SettingsProviderPocoM6Pro5G",
+    manifest: "SettingsProviderPocoM6Pro5G/AndroidManifest.xml",
+    resource_dirs: ["SettingsProviderPocoM6Pro5G/res"],
+    certificate: "platform",
+    product_specific: true,
+    sdk_version: "current",
+}
+
+runtime_resource_overlay {
+    name: "SettingsProviderRedmi12R",
+    manifest: "SettingsProviderRedmi12R/AndroidManifest.xml",
+    resource_dirs: ["SettingsProviderRedmi12R/res"],
+    certificate: "platform",
+    product_specific: true,
+    sdk_version: "current",
+}
+
+runtime_resource_overlay {
+    name: "SettingsProviderRedmiNote12R",
+    manifest: "SettingsProviderRedmiNote12R/AndroidManifest.xml",
+    resource_dirs: ["SettingsProviderRedmiNote12R/res"],
+    certificate: "platform",
+    product_specific: true,
+    sdk_version: "current",
+}

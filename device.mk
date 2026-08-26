@@ -385,6 +385,10 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget \
     LauncherOverlayTarget \
+    SettingsProviderRedmi125G \
+    SettingsProviderPocoM6Pro5G \
+    SettingsProviderRedmi12R \
+    SettingsProviderRedmiNote12R \
     SettingsResCommon \
     SystemUIResCommon \
     TelephonyResCommon \
