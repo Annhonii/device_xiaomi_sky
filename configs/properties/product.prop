@@ -27,6 +27,12 @@ ro.surface_flinger.supports_background_blur=1
 # Fuse
 persist.sys.fuse.passthrough.enable=true
 
+# IORapd
+iorapd.perfetto.enable=false
+iorapd.readahead.enable=false
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+ro.iorapd.enable=false
+
 # Radio
 persist.vendor.radio.hidl_dev_service=true
 ro.vendor.radio.5g=3
