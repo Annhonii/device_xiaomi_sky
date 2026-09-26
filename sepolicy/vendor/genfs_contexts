@@ -19,6 +19,10 @@ genfscon proc /touchscreen/store_data_proximity        u:object_r:proc_proximity
 genfscon sysfs /class/drm/card0/sde-crtc-0/measured_fps    u:object_r:vendor_sysfs_graphics:s0
 
 # Suspend
+# icnss2 uses device_init_wakeup(), so the PM core merges the whole wakeup
+# attribute group under the device's "power" kobject. Label the directory
+# rather than the single file so wakeup_count/wakeup_active inherit too.
+genfscon sysfs /devices/platform/soc/22800000.qcom,icnss/power u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/3000000.remoteproc-adsp/remoteproc/remoteproc2/3000000.remoteproc-adsp:glink-edge/3000000.remoteproc-adsp:glink-edge.adsp_apps.-1.-1/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-3/3-005a/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/990000.spi/spi_master/spi0/spi0.0/wakeup u:object_r:sysfs_wakeup:s0

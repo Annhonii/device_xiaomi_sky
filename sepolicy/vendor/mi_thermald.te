@@ -14,6 +14,7 @@ allow mi_thermald vendor_sysfs_qcom_battery:file rw_file_perms;
 allow mi_thermald vendor_sysfs_graphics:dir r_dir_perms;
 allow mi_thermald vendor_sysfs_graphics:file rw_file_perms;
 allow mi_thermald vendor_sysfs_graphics:lnk_file r_file_perms;
+allow mi_thermald vendor_sysfs_battery_supply:dir r_dir_perms;
 allow mi_thermald thermal_data_file:dir { add_name read remove_name search watch write };
 allow mi_thermald thermal_data_file:file { create getattr open read rename setattr unlink write };
 allow mi_thermald mi_thermald:capability { chown fowner };
