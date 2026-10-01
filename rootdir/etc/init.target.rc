@@ -74,6 +74,10 @@ on late-fs
 
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
+    # Goodix (libgf_hal/libgf_ca) and FPC fingerprint blobs keep their data here
+    mkdir /data/vendor/goodix 0770 system system
+    mkdir /data/vendor/goodix/gf_data 0770 system system
+    mkdir /data/vendor/fpc 0770 system system
     # Enable WLAN cold boot calibration
     write /sys/kernel/cnss/fs_ready 1
     # creat thermal config 
