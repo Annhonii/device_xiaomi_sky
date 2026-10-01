@@ -1,0 +1,2 @@
+# Probes the vendor tombstone directory; harmless
+dontaudit hal_wifi_default vendor_tombstone_data_file:dir search;
