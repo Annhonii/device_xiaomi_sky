@@ -98,8 +98,8 @@ BOARD_KERNEL_CMDLINE := \
     disable_dma32=on \
     cpufreq.default_governor=schedutil \
     rcupdate.rcu_expedited=0 \
-    swinfo.fingerprint=$(LINEAGE_VERSION) \
-    mtdoops.fingerprint=$(LINEAGE_VERSION)
+    swinfo.fingerprint=$(VOLTAGE_VERSION) \
+    mtdoops.fingerprint=$(VOLTAGE_VERSION)
 
 BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \

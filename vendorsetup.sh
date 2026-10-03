@@ -86,7 +86,7 @@ done
 echo
 echo "==> Running Signify..."
 
-KEYS_DIR="vendor/signify/keys" \
+KEYS_DIR="vendor/voltage-priv/keys" \
 SKIP_OTA=true \
 bash <(curl -s https://raw.githubusercontent.com/TopexGuy/Signify/main/signify.sh) --auto
 
