@@ -31,7 +31,7 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/device_settings_app_name"
-        android:theme="@style/Theme.SubSettingsBase.Expressive"
+        android:theme="@style/Theme.Topex"
         android:defaultToDeviceProtectedStorage="true"
         android:directBootAware="true">
 
@@ -39,7 +39,7 @@
             android:name=".MainActivity"
             android:label="@string/app_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase.Expressive">
+            android:theme="@style/Theme.Topex">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -49,7 +49,7 @@
         <activity
             android:name=".TileEntryActivity"
             android:exported="false"
-            android:theme="@style/Theme.SubSettingsBase.Expressive" />
+            android:theme="@style/Theme.Topex" />
 
         <receiver android:name=".BootCompletedReceiver" android:exported="true">
             <intent-filter android:priority="1000">
@@ -68,7 +68,7 @@
             android:name=".display.LcdFeaturesPreferenceActivity"
             android:label="@string/lcd_features_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.Topex">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
             </intent-filter>
@@ -103,13 +103,13 @@
             android:name=".thermal.ThermalActivity"
             android:label="@string/thermal_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase_v31" />
+            android:theme="@style/Theme.Topex" />
 
         <activity
             android:name=".touchstrength.TouchStrengthSettingsActivity"
             android:label="@string/touch_strength_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.Topex">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
             </intent-filter>
@@ -129,7 +129,7 @@
             android:name=".power.PowerProfileActivity"
             android:label="@string/powerprofile_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.Topex">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
             </intent-filter>
@@ -149,7 +149,7 @@
             android:name=".charge.ChargeActivity"
             android:label="@string/charge_tile_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.Topex">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
             </intent-filter>
@@ -178,7 +178,7 @@
             android:name=".batterymonitor.BatteryMonitorActivity"
             android:label="@string/bm_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.Topex">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
             </intent-filter>
@@ -188,7 +188,7 @@
             android:name=".other.OtherSettingsActivity"
             android:label="@string/other_title"
             android:exported="true"
-            android:theme="@style/Theme.SubSettingsBase" />
+            android:theme="@style/Theme.Topex" />
 
         <service
             android:name=".batterymonitor.BatteryMonitorService"

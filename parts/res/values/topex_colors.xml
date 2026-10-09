@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shrinky "Nothing" palette, light -->
+<resources>
+    <color name="topex_bg">#FFF2F2F2</color>
+    <color name="topex_card">#FFFFFFFF</color>
+    <color name="topex_stroke">#FFD9D9D9</color>
+    <color name="topex_text">#FF000000</color>
+    <color name="topex_mute">#FF606060</color>
+    <color name="topex_dot_off">#FFD9D9D9</color>
+    <color name="topex_dot_on">#FF000000</color>
+    <color name="topex_primary">#FFD71921</color>
+    <color name="topex_on_primary">#FFFFFFFF</color>
+    <color name="topex_field">#FFEBEBEB</color>
+    <color name="topex_high">#FFD9D9D9</color>
+    <color name="topex_inverse">#FF000000</color>
+    <color name="topex_on_inverse">#FFFFFFFF</color>
+</resources>

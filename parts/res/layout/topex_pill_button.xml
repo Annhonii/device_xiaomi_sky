@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TopexText.Button"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/topex_pill_filled"
+    android:stateListAnimator="@null"
+    android:textAllCaps="false"
+    android:textColor="@color/topex_on_primary" />
