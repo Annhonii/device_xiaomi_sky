@@ -10,9 +10,6 @@
 # Include Firmware
 -include device/xiaomi/sky/firmware.mk
 
-# Include MiuiCamera
--include device/xiaomi/miuicamera-sky/BoardConfig.mk
-
 DEVICE_PATH := device/xiaomi/sky
 
 # A/B
