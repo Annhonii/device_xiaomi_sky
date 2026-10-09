@@ -327,6 +327,42 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
+# Properties
+PRODUCT_PACKAGES += \
+    sky_sku_properties
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88018AA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018AA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88018EA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018EA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88018OA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018OA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88018PA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018PA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88018XA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88018XA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019BA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019BA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019BP1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019BP1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019EA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019EA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019EP1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019EP1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019KA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019KA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019OA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019OA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88019TA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88019TA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88029AA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029AA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88029EA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029EA1.prop \
+    $(LOCAL_PATH)/configs/properties/vendor_sku/build_S88029JA1.prop:$(TARGET_COPY_OUT_VENDOR)/build_S88029JA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88018AA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88018AA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88018EA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88018EA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88018OA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88018OA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88018PA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88018PA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88018XA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88018XA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019BA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019BA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019BP1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019BP1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019EA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019EA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019EP1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019EP1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019KA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019KA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019OA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019OA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88019TA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88019TA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88029AA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88029AA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88029EA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88029EA1.prop \
+    $(LOCAL_PATH)/configs/properties/product_sku/build_S88029JA1.prop:$(TARGET_COPY_OUT_PRODUCT)/etc/build_S88029JA1.prop
+
 # Rootdir
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \

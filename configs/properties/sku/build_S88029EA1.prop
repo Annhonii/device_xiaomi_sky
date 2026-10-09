@@ -1,0 +1,14 @@
+# Bluetooth
+bluetooth.device.default_name=Redmi 12 5G
+
+# Device
+ro.product.odm.brand=Redmi
+ro.product.odm.name=
+ro.product.odm.device=XIG03
+ro.odm.build.fingerprint=Redmi//XIG03:14/UKQ1.231003.002/OS2.0.210.0.VMWMIXM:user/release-keys
+ro.product.odm.model=XIG03
+ro.product.odm.marketname=Redmi 12 5G
+ro.product.board=XIG03
+
+# USB
+vendor.usb.product_string=Redmi 12 5G

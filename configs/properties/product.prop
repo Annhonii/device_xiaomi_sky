@@ -34,3 +34,6 @@ ro.vendor.radio.features_common=3
 # RKPD
 remote_provisioning.enable_rkpd=true
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# SKU
+import product/etc/build_${ro.boot.boardid}.prop

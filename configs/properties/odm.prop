@@ -1,2 +1,6 @@
 # Qti
 ro.vendor.qti.va_odm.support=1
+
+# SKU
+ro.product.property_source_order=odm,vendor,product,system_ext,system
+import odm/etc/build_${ro.boot.boardid}.prop

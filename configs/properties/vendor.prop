@@ -256,3 +256,6 @@ wifi.aware.interface=wifi-aware0
 
 # Keystore
 ro.hardware.keystore_desede=true
+
+# SKU
+import vendor/build_${ro.boot.boardid}.prop
