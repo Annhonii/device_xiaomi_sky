@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="TopexText">
-        <item name="android:fontFamily">@font/geist</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:textColor">@color/topex_text</item>
     </style>
     <style name="TopexText.Headline">
@@ -37,7 +37,7 @@
         <item name="android:colorBackground">@color/topex_bg</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
-        <item name="android:fontFamily">@font/geist</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:textColorPrimary">@color/topex_text</item>
         <item name="android:textColorSecondary">@color/topex_mute</item>
         <item name="android:colorAccent">@color/topex_primary</item>

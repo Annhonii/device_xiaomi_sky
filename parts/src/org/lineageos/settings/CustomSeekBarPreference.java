@@ -105,6 +105,11 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         }
 
         mSeekBar = new SeekBar(context, attrs);
+        mSeekBar.setProgressDrawable(context.getDrawable(R.drawable.topex_seekbar_progress));
+        mSeekBar.setThumb(context.getDrawable(R.drawable.topex_seekbar_thumb));
+        mSeekBar.setSplitTrack(false);
+        mSeekBar.setBackground(null);
+        mSeekBar.setPadding(0, 0, 0, 0);
         setLayoutResource(R.layout.preference_custom_seekbar);
     }
 

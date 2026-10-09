@@ -14,4 +14,5 @@
     <color name="topex_high">#FF323232</color>
     <color name="topex_inverse">#FFFFFFFF</color>
     <color name="topex_on_inverse">#FF000000</color>
+    <color name="topex_track">#FF292929</color>
 </resources>
