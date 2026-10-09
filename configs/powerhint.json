@@ -482,6 +482,54 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "955000000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 1500,
+      "Value": "2054400"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 1500,
+      "Value": "1478400"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "CPUBWMinFreq",
+      "Duration": 1500,
+      "Value": "1555000"
+    },
+    {
+      "PowerHint": "CAMERA_LAUNCH",
+      "Node": "procSysWaltSchedBoost",
+      "Duration": 1500,
+      "Value": "1"
+    },
+    {
+      "PowerHint": "CAMERA_SHOT",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 500,
+      "Value": "2054400"
+    },
+    {
+      "PowerHint": "CAMERA_SHOT",
+      "Node": "CPUBWMinFreq",
+      "Duration": 500,
+      "Value": "1555000"
+    },
+    {
+      "PowerHint": "CAMERA_SHOT",
+      "Node": "GPUMaxFreq",
+      "Duration": 500,
+      "Value": "955000000"
+    },
+    {
+      "PowerHint": "CAMERA_SHOT",
+      "Node": "procSysWaltSchedBoost",
+      "Duration": 500,
+      "Value": "1"
     }
   ]
 }
