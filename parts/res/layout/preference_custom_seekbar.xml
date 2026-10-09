@@ -10,7 +10,7 @@
     android:gravity="center_vertical"
     android:paddingStart="?android:attr/listPreferredItemPaddingStart"
     android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-    android:background="?android:attr/activatedBackgroundIndicator"
+    android:background="@drawable/topex_card_bg" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"
     android:clipToPadding="false">
 
     <LinearLayout
@@ -44,7 +44,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxLines="1"
-            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textAppearance="@style/TopexText.Title"
             android:ellipsize="marquee" />
 
         <TextView
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@android:id/title"
             android:layout_alignStart="@android:id/title"
-            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textAppearance="@style/TopexText.Body"
             android:textColor="?android:attr/textColorSecondary"
             android:maxLines="10"
             android:ellipsize="end" />
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+                android:textAppearance="@style/TopexText.Body"
                 android:textColor="?android:attr/textColorSecondary"
                 android:maxLines="1"
                 android:ellipsize="end" />

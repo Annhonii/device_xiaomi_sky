@@ -32,7 +32,7 @@
     </style>
 
     <!-- Use on activities instead of Theme.SubSettingsBase. Parent keeps SettingsLib preference plumbing. -->
-    <style name="Theme.Topex" parent="Theme.SubSettingsBase">
+    <style name="Theme.Topex" parent="Theme.SubSettingsBase_v31">
         <item name="android:windowBackground">@color/topex_bg</item>
         <item name="android:colorBackground">@color/topex_bg</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
@@ -43,5 +43,7 @@
         <item name="android:colorAccent">@color/topex_primary</item>
         <item name="android:colorControlActivated">@color/topex_primary</item>
         <item name="android:colorControlHighlight">@color/topex_high</item>
+        <item name="android:windowLightStatusBar">@bool/topex_light_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/topex_light_bars</item>
     </style>
 </resources>

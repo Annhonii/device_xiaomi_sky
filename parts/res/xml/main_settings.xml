@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_lcd_features"
         android:title="@string/lcd_features_title"
         android:summary="@string/lcd_features_summary"
@@ -26,7 +26,7 @@
             android:targetClass="org.lineageos.settings.display.LcdFeaturesPreferenceActivity" />
     </Preference>
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_thermal"
         android:title="@string/thermal_title"
         android:summary="@string/thermal_summary"
@@ -36,7 +36,7 @@
             android:targetClass="org.lineageos.settings.thermal.ThermalActivity" />
     </Preference>
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_touch_strength"
         android:title="@string/touch_strength_title"
         android:summary="@string/touch_strength_summary"
@@ -46,7 +46,7 @@
             android:targetClass="org.lineageos.settings.touchstrength.TouchStrengthSettingsActivity" />
     </Preference>
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_power_profile"
         android:title="@string/powerprofile_title"
         android:summary="@string/powerprofile_summary"
@@ -56,7 +56,7 @@
             android:targetClass="org.lineageos.settings.power.PowerProfileActivity" />
     </Preference>
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_charge"
         android:title="@string/charge_tile_title"
         android:summary="@string/charge_summary"
@@ -66,7 +66,7 @@
             android:targetClass="org.lineageos.settings.charge.ChargeActivity" />
     </Preference>
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_battery_monitor"
         android:title="@string/bm_title"
         android:summary="@string/bm_summary"
@@ -76,7 +76,7 @@
             android:targetClass="org.lineageos.settings.batterymonitor.BatteryMonitorActivity" />
     </Preference>
 
-    <Preference
+    <Preference android:layout="@layout/topex_preference"
         android:key="entry_other"
         android:title="@string/other_title"
         android:summary="@string/other_summary"

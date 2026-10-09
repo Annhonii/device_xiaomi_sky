@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="@string/other_section_title">
+    <PreferenceCategory android:layout="@layout/topex_preference_category" android:title="@string/other_section_title">
 
-        <SwitchPreference
+        <SwitchPreference android:layout="@layout/topex_preference"
             android:key="mglru_enable"
             android:title="@string/mglru_enable_title"
             android:summary="@string/mglru_enable_summary"
             android:defaultValue="false" />
 
-        <SwitchPreference
+        <SwitchPreference android:layout="@layout/topex_preference"
             android:key="performance_mode_enable"
             android:title="@string/performance_enable_title"
             android:summary="@string/performance_enable_summary"

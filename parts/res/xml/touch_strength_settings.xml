@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto">
 
-    <SwitchPreference
+    <SwitchPreference android:layout="@layout/topex_preference"
         android:key="touch_strength_enable"
         android:title="@string/touch_strength_enable_title"
         android:summary="@string/touch_strength_enable_summary"
