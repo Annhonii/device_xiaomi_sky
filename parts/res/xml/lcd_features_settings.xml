@@ -20,12 +20,14 @@
     <ListPreference android:layout="@layout/topex_preference"
         android:key="pref_hbm"
         android:title="@string/lcd_hbm_title"
+        android:summary="@string/lcd_hbm_summary"
         android:entries="@array/lcd_hbm_modes"
         android:entryValues="@array/lcd_hbm_values"
         android:defaultValue="0" />
     <ListPreference android:layout="@layout/topex_preference"
         android:key="pref_cabc"
         android:title="@string/lcd_cabc_title"
+        android:summary="@string/lcd_cabc_summary"
         android:entries="@array/lcd_cabc_modes"
         android:entryValues="@array/lcd_cabc_values"
         android:defaultValue="0" />

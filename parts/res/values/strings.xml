@@ -168,4 +168,6 @@
     <string name="performance_notification_text">Thermal throttling is disabled. The device may run hot — turn off Disable Thermals if needed.</string>
     <string name="performance_apply_failed">Could not apply setting.</string>
 
+    <string name="lcd_hbm_summary">Boosts peak brightness so the screen is easier to read in sunlight.</string>
+    <string name="lcd_cabc_summary">Saves power by adjusting contrast on static content.</string>
 </resources>
