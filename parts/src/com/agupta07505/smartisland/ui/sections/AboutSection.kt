@@ -259,7 +259,7 @@ fun AboutSection(
                         color = MaterialTheme.colorScheme.primary
                     )
                     Text(
-                        text = "Smart Island does not collect, store, or transmit any user data, identifiers, or notification details. All operations and settings remain strictly on your device. Network queries are unauthenticated, read-only requests for GitHub repository updates.",
+                        text = "Dynamic Island does not collect, store, or transmit any user data, identifiers, or notification details. All operations and settings remain strictly on your device. Network queries are unauthenticated, read-only requests for GitHub repository updates.",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         lineHeight = 18.sp
@@ -399,7 +399,7 @@ fun AboutSection(
                         onClick = {
                             val intent = Intent(Intent.ACTION_SENDTO).apply {
                                 data = Uri.parse("mailto:agupta07505@gmail.com")
-                                putExtra(Intent.EXTRA_SUBJECT, "Smart Island App Feedback")
+                                putExtra(Intent.EXTRA_SUBJECT, "Dynamic Island App Feedback")
                             }
                             runCatchingLogged("AboutSection", "Failed to send email") {
                                 context.startActivity(intent)

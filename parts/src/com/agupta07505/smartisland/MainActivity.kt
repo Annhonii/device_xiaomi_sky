@@ -17,6 +17,10 @@ import com.agupta07505.smartisland.data.SmartIslandSettingsRepository
 import com.agupta07505.smartisland.ui.SmartIslandHomeScreen
 import com.agupta07505.smartisland.ui.SmartIslandTheme
 import com.agupta07505.smartisland.util.SystemServiceRecovery
+import com.agupta07505.smartisland.util.ShizukuManager
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.CoroutineScope
 class MainActivity : ComponentActivity() {
     val settingsRepository: SmartIslandSettingsRepository by lazy { SmartIslandRepositories.settingsRepository(applicationContext) }
     val notificationRepository: INotificationRepository by lazy { SmartIslandRepositories.notificationRepository(applicationContext) }
@@ -38,5 +42,6 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         SystemServiceRecovery.requestRecovery(this)
+        CoroutineScope(Dispatchers.IO).launch { ShizukuManager.autoGrantAllPermissions(applicationContext) }
     }
 }

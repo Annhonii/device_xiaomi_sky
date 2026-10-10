@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Smart Island (2026)
+  Dynamic Island (2026)
   © Animesh Gupta — github.com/agupta07505
   Licensed under the GNU GPL v3 License
   Do not remove or alter this notice. - Per GPL-3.0 Section 4 & Section 5
 -->
 <resources>
     <!-- Application Info -->
-    <string name="app_name">Smart Island</string>
+    <string name="app_name">Dynamic Island</string>
     <string name="app_subtitle">悬浮动态灵动岛</string>
-    <string name="app_description">Smart Island 为 Android 重塑通知体验，带来精美的悬浮交互、实时动态控制与丝滑动画，让重要信息尽收眼底。</string>
-    <string name="accessibility_service_label">Smart Island 服务</string>
-    <string name="accessibility_service_description">允许 Smart Island 悬浮在状态栏之上，让您可以轻触摄像头挖孔周围的药丸区域，且不受触摸干扰。</string>
+    <string name="app_description">Dynamic Island 为 Android 重塑通知体验，带来精美的悬浮交互、实时动态控制与丝滑动画，让重要信息尽收眼底。</string>
+    <string name="accessibility_service_label">Dynamic Island 服务</string>
+    <string name="accessibility_service_description">允许 Dynamic Island 悬浮在状态栏之上，让您可以轻触摄像头挖孔周围的药丸区域，且不受触摸干扰。</string>
     <string name="grant_accessibility">授予无障碍权限以在状态栏上方启动悬浮窗</string>
     <string name="made_by">由 Animesh Gupta 用 ❤️ 制作</string>
 
@@ -23,7 +23,7 @@
     <string name="tab_system">系统与关于</string>
 
     <!-- Master Switch & Status -->
-    <string name="master_switch_title">Smart Island</string>
+    <string name="master_switch_title">Dynamic Island</string>
     <string name="master_switch_active_desc">运行中</string>
     <string name="master_switch_ready_desc">已关闭 — 点击开启</string>
     <string name="master_switch_missing_desc">需要权限</string>
@@ -32,7 +32,7 @@
     <string name="status_setup_needed">需要配置</string>
     <string name="status_action_required">需要操作</string>
     <string name="btn_grant_required_permissions">授予权限</string>
-    <string name="enable_smart_island">启用 Smart Island</string>
+    <string name="enable_smart_island">启用 Dynamic Island</string>
     <string name="overlay_ready">悬浮窗服务已就绪</string>
     <string name="grant_overlay">授予悬浮窗权限以启动</string>
 
@@ -106,7 +106,7 @@
     <string name="card_permissions_setup_title">权限与系统配置</string>
     <string name="card_permissions_setup_desc">Shizuku 一键授权、无障碍服务、通知权限与保活设置</string>
     <string name="card_permissions_setup_status_all">已全部授予</string>
-    <string name="card_about_app_title">关于 Smart Island</string>
+    <string name="card_about_app_title">关于 Dynamic Island</string>
     <string name="card_about_app_desc">版本 v%1$s • 应用内 GitHub 更新 • 贡献者与提交</string>
     <string name="card_about_app_status">开源软件</string>
     <string name="card_support_requests_title">支持与功能建议</string>
@@ -128,11 +128,11 @@
     <string name="btn_checking_for_updates">正在检查更新…</string>
     <string name="changelogs_title">更新日志</string>
     <string name="changelogs_desc">发行说明与版本更新记录</string>
-    <string name="status_up_to_date">Smart Island 已是最新版本</string>
+    <string name="status_up_to_date">Dynamic Island 已是最新版本</string>
     <string name="status_update_available">新版本 %1$s 已发布</string>
     <string name="btn_download_apk">下载 APK</string>
     <string name="detail_title_permissions_center">权限与配置中心</string>
-    <string name="detail_title_about_app">关于 Smart Island</string>
+    <string name="detail_title_about_app">关于 Dynamic Island</string>
     <string name="detail_title_support_community">支持与反馈</string>
 
     <!-- Permissions Section -->
@@ -144,7 +144,7 @@
     <string name="shizuku_success">已通过 Shizuku 成功授予权限</string>
     <string name="shizuku_failed">Shizuku 配置失败：%1$s</string>
     <string name="perm_accessibility_title">无障碍悬浮窗</string>
-    <string name="perm_accessibility_desc">允许 Smart Island 动态悬浮在状态栏与挖孔区域上方</string>
+    <string name="perm_accessibility_desc">允许 Dynamic Island 动态悬浮在状态栏与挖孔区域上方</string>
     <string name="perm_notification_title">通知访问权限</string>
     <string name="perm_notification_desc">读取收到的消息、来电、媒体元数据与实时动态提示</string>
     <string name="perm_battery_title">忽略电池优化</string>
@@ -246,7 +246,7 @@
     <string name="btn_cancel">取消</string>
 
     <!-- Gestures Guide -->
-    <string name="gestures_guide_title">Smart Island 手势操作指南</string>
+    <string name="gestures_guide_title">Dynamic Island 手势操作指南</string>
     <string name="gestures_guide_desc">5 种直观手势，轻松掌控通知、通话与多任务</string>
     <string name="gesture_1_tap_tab">1. 轻触</string>
     <string name="gesture_2_swipe_up_tab">2. 上滑</string>
@@ -267,7 +267,7 @@
     <string name="gesture_4_swipe_down_desc">在灵动岛卡片上向下滑动，即可在 Android 自由小窗多任务模式下打开当前应用。</string>
     <string name="gesture_5_swipe_horizontal_title">左右水平滑动</string>
     <string name="gesture_5_swipe_horizontal_sub">切换多条活动通知</string>
-    <string name="gesture_5_swipe_horizontal_desc">当 Smart Island 中有多条通知排队时，在展开卡片上左右滑动即可翻页浏览。</string>
+    <string name="gesture_5_swipe_horizontal_desc">当 Dynamic Island 中有多条通知排队时，在展开卡片上左右滑动即可翻页浏览。</string>
 
     <!-- Swipe Customization & Disable Actions -->
     <string name="enable_swipe_gestures_title">启用滑动手势</string>
@@ -340,7 +340,7 @@
     <string name="lock_screen_title">锁屏与隐私守护</string>
     <string name="lock_screen_desc">控制设备锁定时灵动岛的行为，并保护敏感通知内容</string>
     <string name="toggle_show_lock_screen_title">在锁屏界面显示灵动岛</string>
-    <string name="toggle_show_lock_screen_desc">手机锁屏时保持 Smart Island 悬浮显示</string>
+    <string name="toggle_show_lock_screen_desc">手机锁屏时保持 Dynamic Island 悬浮显示</string>
     <string name="privacy_level_title">锁屏通知内容隐私级别</string>
     <string name="privacy_app_icon_only">仅显示应用图标（私密）</string>
     <string name="privacy_full_content">显示完整通知预览</string>
@@ -353,7 +353,7 @@
     <string name="toggle_quick_actions_title">通知快捷操作按钮</string>
     <string name="toggle_quick_actions_desc">在展开卡片中显示回复、标为已读和忽略等快捷按钮</string>
     <string name="toggle_mirror_only_title">仅灵动岛显示（从系统通知栏隐藏）</string>
-    <string name="toggle_mirror_only_desc">仅在 Smart Island 中呈现通知，并在系统默认下拉通知栏中隐藏</string>
+    <string name="toggle_mirror_only_desc">仅在 Dynamic Island 中呈现通知，并在系统默认下拉通知栏中隐藏</string>
     <string name="toggle_auto_hide_idle_title">空闲时自动隐藏药丸</string>
     <string name="toggle_auto_hide_idle_desc">没有活跃通知、音乐或动态事件时完全隐藏药丸</string>
     <string name="toggle_auto_hide_pill_title">无操作后自动隐藏药丸</string>
@@ -464,13 +464,13 @@
     <string name="license_desc">自由且开放源代码软件</string>
 
     <!-- About & GitHub Updates -->
-    <string name="about_title">关于 Smart Island</string>
+    <string name="about_title">关于 Dynamic Island</string>
     <string name="github_update_center_title">GitHub 更新中心</string>
     <string name="current_version_label">当前版本：v%1$s</string>
     <string name="btn_check_updates">检查更新</string>
     <string name="btn_checking_updates">正在检查…</string>
     <string name="update_available_title">发现新版本：%1$s</string>
-    <string name="update_up_to_date_title">Smart Island 已是最新版本</string>
+    <string name="update_up_to_date_title">Dynamic Island 已是最新版本</string>
     <string name="offline_mode_title">当前为离线模式</string>
     <string name="offline_mode_desc">设置中已关闭网络检查。如需检查更新，请开启网络访问权限。</string>
     <string name="repo_insights_title">开源仓库概览</string>
@@ -478,7 +478,7 @@
     <string name="recent_commits_title">近期提交记录</string>
 
     <!-- Welcome Dialog -->
-    <string name="welcome_title">欢迎使用 Smart Island 工作室</string>
+    <string name="welcome_title">欢迎使用 Dynamic Island 工作室</string>
     <string name="welcome_desc">专为 Android 打造的私密、高自由度悬浮灵动岛。无广告、零数据追踪，且完全开源。</string>
     <string name="btn_get_started">开始使用</string>
 
@@ -531,7 +531,7 @@
     <string name="backup_export_card_desc">通过 Android 存储访问框架将当前岛屿几何数据、自定义主题和规则安全保存为 .json 文件。</string>
     <string name="btn_export_backup">导出备份 (JSON)</string>
     <string name="backup_restore_card_title">从备份恢复</string>
-    <string name="backup_restore_card_desc">选取之前导出的 Smart Island JSON 备份文件以恢复所有的微调与配置。</string>
+    <string name="backup_restore_card_desc">选取之前导出的 Dynamic Island JSON 备份文件以恢复所有的微调与配置。</string>
     <string name="btn_restore_backup">选取备份文件</string>
     <string name="backup_reset_card_title">恢复出厂设置</string>
     <string name="backup_reset_card_desc">将所有岛屿尺寸、位置、偏移、色彩方案与规则恢复为默认初始值。</string>
@@ -544,7 +544,7 @@
     <string name="toast_backup_export_failed">保存备份失败: %1$s</string>
     <string name="toast_backup_restored_success">设置已成功恢复！</string>
     <string name="toast_backup_restore_failed">恢复备份失败: %1$s</string>
-    <string name="toast_backup_invalid_file">所选文件不是有效的 Smart Island 备份。</string>
+    <string name="toast_backup_invalid_file">所选文件不是有效的 Dynamic Island 备份。</string>
     <string name="toast_reset_all_success">所有设置已恢复默认值</string>
     <string name="btn_backup_restore_shortcut">备份与恢复</string>
 

@@ -47,7 +47,7 @@ object AppLogRecorder {
     fun updateRecordingState(context: Context, enabled: Boolean) {
         isRecording = enabled
         if (enabled) {
-            record("I", TAG, "Diagnostic log recording started for Smart Island v${BuildConfig.VERSION_NAME}")
+            record("I", TAG, "Diagnostic log recording started for Dynamic Island v${BuildConfig.VERSION_NAME}")
         } else {
             record("I", TAG, "Diagnostic log recording paused")
         }

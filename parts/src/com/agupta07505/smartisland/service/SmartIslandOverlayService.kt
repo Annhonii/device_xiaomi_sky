@@ -916,7 +916,7 @@ class SmartIslandOverlayService : AccessibilityService() {
                 OVERLAY_CHANNEL_NAME,
                 NotificationManager.IMPORTANCE_LOW
             ).apply {
-                description = "Keeps the Smart Island overlay running"
+                description = "Keeps the Dynamic Island overlay running"
                 setShowBadge(false)
             }
             val nm = getSystemService(Context.NOTIFICATION_SERVICE) as? NotificationManager
@@ -935,8 +935,8 @@ class SmartIslandOverlayService : AccessibilityService() {
                 PendingIntent.FLAG_UPDATE_CURRENT
         )
         return NotificationCompat.Builder(this, OVERLAY_CHANNEL_ID)
-            .setContentTitle("Smart Island is active")
-            .setContentText("Tap to open Smart Island")
+            .setContentTitle("Dynamic Island is active")
+            .setContentText("Tap to open Dynamic Island")
             .setSmallIcon(R.drawable.ic_stat_smart_island)
             .setContentIntent(contentIntent)
             .setOngoing(true)
@@ -955,7 +955,7 @@ class SmartIslandOverlayService : AccessibilityService() {
         private const val NOTIFICATION_ID = 8105
         private const val WINDOWING_MODE_FREEFORM = 5
         private const val OVERLAY_CHANNEL_ID = "smart_island_overlay"
-        private const val OVERLAY_CHANNEL_NAME = "Smart Island overlay"
+        private const val OVERLAY_CHANNEL_NAME = "Dynamic Island overlay"
         private const val AUTO_COLLAPSE_DELAY_MS = 220L
     }
 }

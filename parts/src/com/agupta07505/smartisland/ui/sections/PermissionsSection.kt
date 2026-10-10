@@ -309,7 +309,7 @@ fun PermissionsSection(
                 }
                 Spacer(Modifier.height(10.dp))
                 Text(
-                    text = "Opens Android system notification channels to hide the persistent \"Smart Island is displaying over other apps\" banner.",
+                    text = "Opens Android system notification channels to hide the persistent \"Dynamic Island is displaying over other apps\" banner.",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     lineHeight = 16.sp
@@ -414,7 +414,7 @@ fun PermissionsSection(
                 }
                 Spacer(Modifier.height(10.dp))
                 Text(
-                    text = "On Xiaomi/HyperOS, Samsung OneUI, OPPO ColorOS, and Vivo OriginOS, enable Autostart to prevent custom OEM task killers from terminating Smart Island.",
+                    text = "On Xiaomi/HyperOS, Samsung OneUI, OPPO ColorOS, and Vivo OriginOS, enable Autostart to prevent custom OEM task killers from terminating Dynamic Island.",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     lineHeight = 16.sp

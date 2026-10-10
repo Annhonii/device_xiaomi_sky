@@ -131,7 +131,6 @@ import com.agupta07505.smartisland.data.SmartIslandSettings
 import com.agupta07505.smartisland.data.SmartIslandSettingsRepository
 import com.agupta07505.smartisland.di.SmartIslandRepositories
 import com.agupta07505.smartisland.model.IslandMode
-import com.agupta07505.smartisland.ui.sections.AboutSection
 import com.agupta07505.smartisland.ui.sections.AppShortcutsSection
 import com.agupta07505.smartisland.ui.sections.BackupRestoreSection
 import com.agupta07505.smartisland.ui.sections.CustomizationsSection
@@ -140,9 +139,7 @@ import com.agupta07505.smartisland.ui.sections.GesturesSection
 import com.agupta07505.smartisland.ui.sections.NotificationHistorySection
 import com.agupta07505.smartisland.ui.sections.NotificationsAndPrivacySection
 import com.agupta07505.smartisland.ui.sections.PermissionsSection
-import com.agupta07505.smartisland.ui.sections.UpdatesAndDownloadsSection
 import com.agupta07505.smartisland.ui.sections.PositionsSection
-import com.agupta07505.smartisland.ui.sections.SupportSection
 import com.agupta07505.smartisland.util.SystemServiceRecovery
 import com.agupta07505.smartisland.util.runCatchingLogged
 import kotlinx.coroutines.launch
@@ -161,9 +158,6 @@ private enum class FeatureDetailSection {
     GesturesGuide,
     PermissionsCenter,
     BackupRestore,
-    UpdatesAndDownloads,
-    AboutApp,
-    SupportCommunity,
     DeveloperOptions
 }
 
@@ -200,7 +194,7 @@ fun SmartIslandHomeScreen(
         }
     }
 
-    if (showWelcomeDialog) {
+    if (false) { // promo welcome dialog removed
         WelcomeDialog(
             onDismiss = {
                 showWelcomeDialog = false
@@ -437,7 +431,7 @@ private fun StudioTopHeader(
             if (appIcon != null) {
                 Image(
                     bitmap = appIcon,
-                    contentDescription = "Smart Island Logo",
+                    contentDescription = "Dynamic Island Logo",
                     modifier = Modifier
                         .size(42.dp)
                         .clip(RoundedCornerShape(12.dp))
@@ -822,40 +816,11 @@ private fun SettingsOverviewSection(
 
         // Section 3: System
         SettingsCategoryGroup(title = stringResource(R.string.category_system_core)) {
-            FeatureStudioNavigationCard(
-                title = stringResource(R.string.card_permissions_setup_title),
-                icon = Icons.Rounded.Shield,
-                statusText = if (!canEnable) stringResource(R.string.status_action_required) else null,
-                statusColor = if (canEnable) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.primary,
-                onClick = { onNavigateTo(FeatureDetailSection.PermissionsCenter) }
-            )
 
             FeatureStudioNavigationCard(
                 title = stringResource(R.string.card_backup_restore_title),
                 icon = Icons.Rounded.SettingsBackupRestore,
                 onClick = { onNavigateTo(FeatureDetailSection.BackupRestore) }
-            )
-        }
-
-        // Section 4: About
-        SettingsCategoryGroup(title = stringResource(R.string.category_about_community)) {
-            FeatureStudioNavigationCard(
-                title = stringResource(R.string.card_updates_downloads_title),
-                icon = Icons.Rounded.CloudDownload,
-                onClick = { onNavigateTo(FeatureDetailSection.UpdatesAndDownloads) }
-            )
-
-            FeatureStudioNavigationCard(
-                title = stringResource(R.string.card_about_app_title),
-                icon = Icons.Rounded.Info,
-                statusText = "v${com.agupta07505.smartisland.BuildConfig.VERSION_NAME}",
-                onClick = { onNavigateTo(FeatureDetailSection.AboutApp) }
-            )
-
-            FeatureStudioNavigationCard(
-                title = stringResource(R.string.card_support_requests_title),
-                icon = Icons.Rounded.People,
-                onClick = { onNavigateTo(FeatureDetailSection.SupportCommunity) }
             )
         }
 
@@ -1063,9 +1028,6 @@ private fun DetailScreenHost(
                 FeatureDetailSection.GesturesGuide -> stringResource(R.string.detail_title_gestures_guide)
                 FeatureDetailSection.PermissionsCenter -> stringResource(R.string.detail_title_permissions_center)
                 FeatureDetailSection.BackupRestore -> stringResource(R.string.detail_title_backup_restore)
-                FeatureDetailSection.UpdatesAndDownloads -> stringResource(R.string.detail_title_updates_downloads)
-                FeatureDetailSection.AboutApp -> stringResource(R.string.detail_title_about_app)
-                FeatureDetailSection.SupportCommunity -> stringResource(R.string.detail_title_support_community)
                 FeatureDetailSection.DeveloperOptions -> stringResource(R.string.detail_title_developer_options)
             }
             Text(
@@ -1132,19 +1094,6 @@ private fun DetailScreenHost(
             }
             FeatureDetailSection.BackupRestore -> {
                 BackupRestoreSection(settings = settings, repository = repository)
-            }
-            FeatureDetailSection.UpdatesAndDownloads -> {
-                UpdatesAndDownloadsSection(settings = settings, repository = repository)
-            }
-            FeatureDetailSection.AboutApp -> {
-                AboutSection(
-                    settings = settings,
-                    repository = repository,
-                    onNavigateToUpdates = { onNavigateTo(FeatureDetailSection.UpdatesAndDownloads) }
-                )
-            }
-            FeatureDetailSection.SupportCommunity -> {
-                SupportSection()
             }
             FeatureDetailSection.DeveloperOptions -> {
                 DeveloperOptionsSection(settings = settings, repository = repository)
@@ -1229,7 +1178,7 @@ private fun WelcomeDialog(
                 if (appIcon != null) {
                     Image(
                         bitmap = appIcon,
-                        contentDescription = "Smart Island Logo",
+                        contentDescription = "Dynamic Island Logo",
                         modifier = Modifier
                             .size(68.dp)
                             .clip(RoundedCornerShape(18.dp))
