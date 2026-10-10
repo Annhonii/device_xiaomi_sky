@@ -170,4 +170,6 @@
 
     <string name="lcd_hbm_summary">Boosts peak brightness so the screen is easier to read in sunlight.\nCurrent: %s</string>
     <string name="lcd_cabc_summary">Saves power by adjusting contrast on static content.\nCurrent: %s</string>
+    <string name="dynamic_island_title">Dynamic Island</string>
+    <string name="dynamic_island_summary">Floating island for notifications, music, calls and more</string>
 </resources>

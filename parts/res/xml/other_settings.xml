@@ -17,4 +17,12 @@
 
     </PreferenceCategory>
 
+    <Preference android:layout="@layout/topex_preference"
+        android:key="dynamic_island"
+        android:title="@string/dynamic_island_title"
+        android:summary="@string/dynamic_island_summary">
+        <intent
+            android:targetPackage="org.lineageos.settings"
+            android:targetClass="com.agupta07505.smartisland.MainActivity" />
+    </Preference>
 </PreferenceScreen>
